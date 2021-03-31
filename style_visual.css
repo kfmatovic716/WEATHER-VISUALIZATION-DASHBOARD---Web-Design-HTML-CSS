@@ -3,10 +3,73 @@ h1 {
     margin-bottom: 15px;
     /* Change the size of your font to 60 pixels high. */
     font-size: 40px;
+    /* Change font style */
+    font-family: 'Times New Roman', Times, serif;
     /* This will color the heading font white. */
     color: rgb(0, 153, 153);
     /* Align the text to the center of its enclosing element (e.g. div). */
     text-align: left;
-    /* Underline the text. */
+    /* Bold text. */
     text-decoration: bold;
 }  
+
+h2 {
+    font-size: 30px;
+    /* Change font style */
+    font-family: 'Times New Roman', Times, serif;
+    /* This will color the heading font white. */
+    color: rgb(0, 153, 153);
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: left;
+    /* Bold text. */
+    text-decoration: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.left {
+   width: 75%; 
+}
+
+.right {
+    width: 25%;
+}
+img.align-left{
+    float:left;
+    margin-right:10px;
+    width: 350px;
+}
+
+#footer {
+    background-color:lightblue;
+    margin-left: 20px;
+    padding: 5px;
+    height: 30px;
+}
+
+#summary, #temp_visual {
+    height: 55%;
+    width:55%;
+    background-color:lightblue;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#visuals {
+    height: 35%;
+    width:35%;
+    background-color:lightblue;
+    text-align: center;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
