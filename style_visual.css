@@ -3,8 +3,6 @@ h1 {
     margin-bottom: 15px;
     /* Change the size of your font to 60 pixels high. */
     font-size: 40px;
-    /* Change font style */
-    font-family: 'Times New Roman', Times, serif;
     /* This will color the heading font white. */
     color: rgb(0, 153, 153);
     /* Align the text to the center of its enclosing element (e.g. div). */
@@ -15,61 +13,97 @@ h1 {
 
 h2 {
     font-size: 30px;
-    /* Change font style */
-    font-family: 'Times New Roman', Times, serif;
     /* This will color the heading font white. */
     color: rgb(0, 153, 153);
     /* Align the text to the center of its enclosing element (e.g. div). */
-    text-align: left;
+    text-align: left; 
     /* Bold text. */
     text-decoration: bold;
 }
 
+
+
 .row {
-    display: flex;
+    display: inside;
+    margin-left: 5px;
+}
+
+.row_visual {
+    display: inside;
+    margin-right: 10px;
+    width: 150px;
 }
 
 .left {
-   width: 75%; 
+   width: 500px;
+   margin-left: 20px; 
+  
 }
 
-.right {
-    width: 25%;
-}
+
+.visual_left {
+    width: 50%;
+    padding: 5px;
+ }
+ 
+ .visual_right {
+     width: 50%;
+     padding: 5px;
+ }
+
+ 
 img.align-left{
     float:left;
-    margin-right:10px;
+    margin-right:15px;
     width: 350px;
 }
 
+/* Default font style and size of body */
+body {
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 17px;
+}
+
+/* Format of navigation bar */
+.navbar {
+    background-color:lightblue;
+    margin-bottom: 20px;   
+}
+
+/* Footer design */
 #footer {
     background-color:lightblue;
-    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
     padding: 5px;
     height: 30px;
 }
 
-#summary, #temp_visual {
+/* Format of left side of eac page */
+#summary, #temp_visual, #humid_visual, 
+#cloudy_visual, #wind_visual {
     height: 55%;
     width:55%;
     background-color:lightblue;
     text-align: justify;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
-
 }
 
+/* Visualization summary format on temp, cloudiness,
+humidity and wind speed pages */
 #visuals {
     height: 35%;
-    width:35%;
+    width: 35%;
     background-color:lightblue;
     text-align: center;
     padding: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right:5px;
     margin-top: 5px;
     margin-bottom: 5px;
 }

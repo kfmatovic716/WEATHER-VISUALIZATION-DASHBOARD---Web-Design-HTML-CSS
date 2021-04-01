@@ -9,7 +9,7 @@
 </head>
  
 <body>
-  <nav class="navbar navbar-light bg-light" style="opacity: 0.9">
+  <nav class="navbar navbar-light">
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1"><h1><a href="index.html"><img src=http://www.westcoastweathervanes.com/wp-content/uploads/2014/05/Arabian-Horse-Weathervane-High-Stepping-P1.jpg alt="weather vane" width="100" height="100" /></a>Latitude</h1>
       </span>
@@ -43,7 +43,7 @@
     
     <div class="row">
       <div id="summary" class="left"><h2>Summary: Latitude vs X</h2>
-        <hr>
+      <hr>
         <p> <img src="WebVisualizations/assets/images/Fig1.png" alt="Fig1" class="align-left small"/>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
         The analysis was based on data of over 500 cities that were pulled from the OpenWeather API. Matplotlib library
         was used to generate visualizations of various aspects of the weather vs latitude. Temperature, cloudiness, 
@@ -52,16 +52,20 @@
         <p>This site provides the source of data along with visualizations of each factor above as it relates to latitude.
         Explanations of trends and correlations were included in the description of each visualization.</p>
       </div>
-    
+  
       <div id="visuals" class="right"><h2>Visualizations</h2>
       <hr>
-        <p></p><img src="WebVisualizations/assets/images/Fig1.png" alt="Fig1" width="250" />
-        <img src="WebVisualizations/assets/images/Fig2.png" alt="Fig2" width="250" /></p>
-        <p><img src="WebVisualizations/assets/images/Fig3.png" alt="Fig3" width="250" />
-        <img src="WebVisualizations/assets/images/Fig4.png" alt="Fig4" width="250" /></p>
+        <div class="row">
+          <div class="visual_left"><a href="temperature.html"><img src="WebVisualizations/assets/images/Fig1.png" alt="Fig1" width=85%/></a></div>
+          <div class="visual_right"><a href="humidity.html"><img src="WebVisualizations/assets/images/Fig2.png" alt="Fig2" width=85% /></a></div>
+          <div class="visual_left"><a href="cloudcover.html"><img src="WebVisualizations/assets/images/Fig3.png" alt="Fig3" width=85%/></a></div>
+          <div class="visual_right"><a href="windspeed.html"><img src="WebVisualizations/assets/images/Fig4.png" alt="Fig4" width=85%/></a></div>
+        </div>
       </div>
 
-      <br>
+    </div>
+    <br>
+    
       <div id="footer" class="grid_5">
         <p>&copy; Copyright <a href="mailto: jabuka611@gmail.com">Katherine Matovic 2021</a></p>
       </div>
