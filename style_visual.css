@@ -1,27 +1,17 @@
 h1 {
-    /* Put a 15-pixel margin at the bottom of the heading. */
     margin-bottom: 15px;
-    /* Change the size of your font to 60 pixels high. */
     font-size: 40px;
-    /* This will color the heading font white. */
     color: rgb(0, 153, 153);
-    /* Align the text to the center of its enclosing element (e.g. div). */
     text-align: left;
-    /* Bold text. */
     text-decoration: bold;
 }  
 
 h2 {
     font-size: 30px;
-    /* This will color the heading font white. */
     color: rgb(0, 153, 153);
-    /* Align the text to the center of its enclosing element (e.g. div). */
     text-align: left; 
-    /* Bold text. */
     text-decoration: bold;
 }
-
-
 
 .row {
     display: inside;
@@ -32,12 +22,6 @@ h2 {
     display: inside;
     margin-right: 10px;
     width: 150px;
-}
-
-.left {
-   width: 500px;
-   margin-left: 20px; 
-  
 }
 
 
@@ -51,7 +35,13 @@ h2 {
      padding: 5px;
  }
 
- 
+ /* summary section format: landing page */
+.left-col {
+    width: 500px;
+    margin-left: 20px; 
+ }
+
+/* image inside summary: landing page */
 img.align-left{
     float:left;
     margin-right:15px;
@@ -80,7 +70,7 @@ body {
     height: 30px;
 }
 
-/* Format of left side of eac page */
+/* Description box format of left side of each plots page */
 #summary, #temp_visual, #humid_visual, 
 #cloudy_visual, #wind_visual {
     height: 55%;
@@ -95,7 +85,7 @@ body {
 }
 
 /* Visualization summary format on temp, cloudiness,
-humidity and wind speed pages */
+humidity and wind speed pages: landing page */
 #visuals {
     height: 35%;
     width: 35%;
@@ -103,7 +93,30 @@ humidity and wind speed pages */
     text-align: center;
     padding: 10px;
     margin-left: 10px;
-    margin-right:5px;
+    margin-right:10px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+/* Comparison page */
+.row_comparison {
+    padding: 10px;
+    height: 50%;
+    width: 50%;
+
+}
+
+.box {
+    height: 300px;
+    width: 950px;
+    padding:30px;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    width: 960px;
+    height: 700px;
+    background:lightblue; 
+    margin-bottom: 30px;
+    
+  } 
