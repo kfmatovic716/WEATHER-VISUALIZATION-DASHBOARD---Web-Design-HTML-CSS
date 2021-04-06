@@ -42,26 +42,32 @@
         </div>
       </nav>
     
-      <div class="row">
-        <div id="humid_visual" class="left"><h2>Humidity</h2>
-          <hr>
-          <img src="WebVisualizations/assets/images/Fig2.png" alt=humidity_visual width="500"/>
-          <p>This figure shows that there is no strong relationship between latitude and humidity. However, Northern Hemisphere showed higher percentage of humidity 
-            levels compared to the Southern Hemisphere. Most cities are located in the Northern Hemisphere and are surrounded by bodies of water like lakes, rivers and 
-            beaches that help increase the supply of water consumed by people. Therefore, increases the amount of water vapor in the atmosphere.</p>
+  <div class='container'>
+
+    <div class="row">
+
+        <div id="humid_visual" class="col-md-8">
+          <h2>Humidity</h2>
+        <hr>
+          <p><img src="WebVisualizations/assets/images/Fig2.png" alt=humidity_visual class="align-left small"/>
+          This figure shows that there is no strong relationship between latitude and humidity. However, Northern Hemisphere showed higher percentage of humidity 
+          levels compared to the Southern Hemisphere. Most cities are located in the Northern Hemisphere and are surrounded by bodies of water like lakes, rivers and 
+          beaches that help increase the supply of water consumed by people. Therefore, increases the amount of water vapor in the atmosphere.</p>
         </div>
         
-      <div id="visuals" class="right"><h2>Visualizations</h2>
-        <hr>
-          <div class="row">
-            <div class="visual_left"><a href="temperature.html"><img src="WebVisualizations/assets/images/Fig1.png" alt="Fig1" width="85%"/></a></div>
-            <div class="visual_right"><a href="humidity.html"><img src="WebVisualizations/assets/images/Fig2.png" alt="Fig2" width="85%" /></a></div>
-            <div class="visual_left"><a href="cloudcover.html"><img src="WebVisualizations/assets/images/Fig3.png" alt="Fig3" width="85%" /></a></div>
-            <div class="visual_right"><a href="windspeed.html"><img src="WebVisualizations/assets/images/Fig4.png" alt="Fig4" width="85%" /></a></div>
-          </div>    
-        </div>
+      <div id="visuals" class="col-md-4">
+        <h2>Visualizations</h2>
+      
+        <div class="row">
+          <figure class="visual_left"><a href="temperature.html"><img src="WebVisualizations/assets/images/Fig1.png" alt="Fig1" width="85%"/></a></figure>
+          <figure class="visual_right"><a href="humidity.html"><img src="WebVisualizations/assets/images/Fig2.png" alt="Fig2" width="85%" /></a></figure>
+          <figure class="visual_left"><a href="cloudcover.html"><img src="WebVisualizations/assets/images/Fig3.png" alt="Fig3" width="85%" /></a></figure>
+          <figure class="visual_right"><a href="windspeed.html"><img src="WebVisualizations/assets/images/Fig4.png" alt="Fig4" width="85%" /></a></figure>
+        </div> 
+
+      </div>
     
-      </div>  
+    </div>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>

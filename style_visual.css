@@ -13,39 +13,14 @@ h2 {
     text-decoration: bold;
 }
 
-.row {
-    display: inside;
-    margin-left: 5px;
+h4 {
+    text-align: center;
+    color:  #3182bd;
 }
 
-.row_visual {
-    display: inside;
-    margin-right: 10px;
-    width: 150px;
-}
-
-
-.visual_left {
-    width: 50%;
-    padding: 5px;
- }
- 
- .visual_right {
-     width: 50%;
-     padding: 5px;
- }
-
- /* summary section format: landing page */
-.left-col {
-    width: 500px;
-    margin-left: 20px; 
- }
-
-/* image inside summary: landing page */
-img.align-left{
-    float:left;
-    margin-right:15px;
-    width: 350px;
+h5 {
+    text-align: left;
+    font-weight: bold;
 }
 
 /* Default font style and size of body */
@@ -55,28 +30,42 @@ body {
     font-size: 17px;
 }
 
+/* background color for each container */
+.container {
+    background:whitesmoke; 
+}
+
 /* Format of navigation bar */
 .navbar {
     background-color:lightblue;
     margin-bottom: 20px;   
 }
 
-/* Footer design */
+/* Footer format */
 #footer {
     background-color:lightblue;
     margin-top: 20px;
     text-align: center;
-    padding: 5px;
+    padding: 5px; 
     height: 30px;
+
 }
 
-/* Description box format of left side of each plots page */
+/* image inside summary: landing page */
+img.align-left{
+    float:left;
+    margin-right:15px;
+    width: 350px;
+}
+
+/* Description box format of 1st column (left side) of each plots page */
 #summary, #temp_visual, #humid_visual, 
 #cloudy_visual, #wind_visual {
-    height: 55%;
-    width:55%;
+    height:55%;
+    width: 55%;
+    border: solid 5px #3182bd;
     background-color:lightblue;
-    text-align: justify;
+    text-align: left;
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -87,9 +76,8 @@ body {
 /* Visualization summary format on temp, cloudiness,
 humidity and wind speed pages: landing page */
 #visuals {
-    height: 35%;
-    width: 35%;
     background-color:lightblue;
+    height: 45%;
     text-align: center;
     padding: 10px;
     margin-left: 10px;
@@ -98,25 +86,52 @@ humidity and wind speed pages: landing page */
     margin-bottom: 5px;
 }
 
-/* Comparison page */
-.row_comparison {
-    padding: 10px;
-    height: 50%;
+/* Alignment & Positioning of Visualizations */
+.visual_left, .visual_right {
     width: 50%;
+    padding: 5px;
+ }
+
+/* Comparison page */
+.col-md-8 {
+    background: lightblue;
+    height: 790px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:5px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+    margin-top:10px;
+}
+
+
+/* Alignment and positioning of img in carousel */
+.carousel-item img {
+    text-align: center;
+    margin-bottom: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:120px;
+    padding-right: 30px;
+}
+
+/* Media queries for devices with < 600px */
+@media (max-width: 600px) {
+
+#comparison {
+    width: 400px;
+    margin-right: 30px;
+    padding-right: 20px;
+    }
+
 
 }
 
-.box {
-    height: 300px;
-    width: 950px;
-    padding:30px;
-    margin-bottom: 30px;
-  }
 
-  .container {
-    width: 960px;
-    height: 700px;
-    background:lightblue; 
-    margin-bottom: 30px;
-    
-  } 
+
+
+
+
+
+
+
