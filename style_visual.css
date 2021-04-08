@@ -1,8 +1,8 @@
 h1 {
+    margin-left:20px;
     margin-bottom: 15px;
     font-size: 40px;
     color: rgb(0, 153, 153);
-    text-align: left;
     text-decoration: bold;
 }  
 
@@ -17,6 +17,7 @@ h2 {
 h4 {
     text-align: right;
     padding-right:20px;
+    padding-top: 20px;
     color:  #3182bd;
 }
 
@@ -33,6 +34,7 @@ body {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 17px;
 }
+
 .background-img {
     background-image: url("WebVisualizations/assets/images/globe.jpg");
     background-repeat: repeat-x;
@@ -53,10 +55,11 @@ body {
 /* Footer format */
 #footer {
     background-color:lightblue;
-    margin-top: 20px;
+    margin-top: 70px;
     text-align: right;
-    padding-bottom: 50px;
-    padding: 5px; 
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 20px;
     height: 30px;
 
 }
@@ -64,7 +67,8 @@ body {
 /* image inside summary: landing page */
 img.align-left{
     float:left;
-    margin-right:15px;
+    margin-right:20px;
+    margin-left: 10px;
     width: 275px;
 }
 
@@ -84,7 +88,8 @@ img.align-left{
 
 .row {
     margin-top:0;
-    margin-left: 40px;
+    margin-left: 30px;
+    padding-right:30px;
 }
 
 /* Visualization summary format on temp, cloudiness,
@@ -102,7 +107,6 @@ humidity and wind speed pages: landing page */
 /* Alignment & Positioning of Visualizations */
 .visual_left, .visual_right {
     width: 50%;
-    /* padding: 5px; */
  }
 
  
