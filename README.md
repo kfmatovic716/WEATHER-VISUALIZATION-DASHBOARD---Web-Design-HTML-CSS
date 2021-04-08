@@ -25,5 +25,5 @@ Website: <a href="https://kfmatovic716.github.io/Web_Design-HTML-CSS/">https://k
     <li>Bootstrap has been utilized for each pages to be responsive to different media screens</li> 
 </ul>
 
-<img src="WebVisualizations/assets/images/landing_page.png"/>
+<img src="WebVisualizations/assets\images/landing_page.png"/>
 
