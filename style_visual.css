@@ -34,7 +34,7 @@ body {
     font-size: 17px;
 }
 .background-img {
-    background-image: url("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/industry/weather-forecast-background.jpg");
+    background-image: url("WebVisualizations/assets/images/globe.jpg");
     background-repeat: repeat-x;
     background-position: center top;
 }
