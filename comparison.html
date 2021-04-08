@@ -9,6 +9,8 @@
 </head>
  
 <body>
+
+    <!-- Navigation  -->
     <nav class="navbar navbar-light">
         <div class="container-fluid">
           <span class="navbar-brand mb-0 h1"><h1><a href="index.html"><img src=http://www.westcoastweathervanes.com/wp-content/uploads/2014/05/Arabian-Horse-Weathervane-High-Stepping-P1.jpg alt="weather vane" width="100" height="100" /></a>Latitude</h1>
@@ -42,61 +44,53 @@
         </div>
       </nav>
     
-  <div class='container'>
+<!-- Content -->
+<h2>Comparison: Latitude vs X</h2>
+<hr>
+<br>
+<h5>Click any plot to get an in-depth analysis</h5>
 
-    <h2>Comparison: Latitude vs X</h2>
-    <br>
-    <div id="comparison" class="col-md-8">
-      <h5>Click any plot to get an in-depth analysis</h5>
-      <br>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <a href="temperature.html"><img src="WebVisualizations/assets/images/Fig1.png" class="d-block w-80" alt="temp"></a>
-              <div class="carousel-caption d-none d-sm-block">
-                <br>
-                <h4>Relationship between Latitude and TEMPERATURE</h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <a href="humidity.html"><img src="WebVisualizations/assets/images/Fig2.png" class="d-block w-80" alt="humid"></a>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>Relationship between Latitude and HUMIDITY</h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <a href="cloudcover.html"><img src="WebVisualizations/assets/images/Fig3.png" class="d-block w-80" alt="cloudy"></a>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>Relationship between Latitude and CLOUD COVER</h4>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <a href="windspeed.html"><img src="WebVisualizations/assets/images/Fig4.png" class="d-block w-80" alt="wind"></a>
-              <div class="carousel-caption d-none d-sm-block">
-                <h4>Relationship between Latitude and WIND SPEED</h4>
-              </div>
-            </div>
-         </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+<div class="container">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h4>vs TEMPERATURE</h4>
+        <img src="WebVisualizations/assets/images/Fig1.png" class="d-block w-100" alt="Temperature">
+        <div class="carousel-caption d-none d-md-block">
         </div>
-        
       </div>
-  
+      <div class="carousel-item">
+        <h4>vs HUMIDITY</h4><img src="WebVisualizations/assets/images/Fig2.png" class="d-block w-100" alt="Humidity">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h4>vs CLOUDINESS</h4><img src="WebVisualizations/assets/images/Fig3.png" class="d-block w-100" alt="Clouds">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h4>vs WIND SPEED</h4><img src="WebVisualizations/assets/images/Fig4.png" class="d-block w-100" alt="Wind">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
     </div>
-  </div>      
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+</div> 
+  
         
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
