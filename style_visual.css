@@ -9,6 +9,13 @@ h1 {
 h2 {
     font-size: 30px;
     color: rgb(0, 153, 153);
+    text-align: center; 
+    padding-left: 10px;
+    text-decoration: bold;
+}
+
+h3 {
+    color: rgb(0, 153, 153);
     text-align: left; 
     padding-left: 10px;
     text-decoration: bold;
@@ -28,7 +35,7 @@ h5 {
     padding-left:20px;
 }
 
-/* Default font style and size of body */
+/* Default font style and color of background */
 body {
     background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif; 
@@ -37,7 +44,7 @@ body {
 
 .background-img {
     background-image: url("WebVisualizations/assets/images/globe.jpg");
-    background-repeat: repeat-x;
+    background-repeat: repeat-y;
     background-position: center top;
 }
 
@@ -61,7 +68,6 @@ body {
     padding-bottom: 30px;
     padding-right: 20px;
     height: 30px;
-
 }
 
 /* image inside summary: landing page */
@@ -69,6 +75,7 @@ img.align-left{
     float:left;
     margin-right:20px;
     margin-left: 10px;
+    padding-bottom: 10px;
     width: 275px;
 }
 
