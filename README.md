@@ -1,5 +1,5 @@
 # Latitude: Web Visualization Dashboard
-Website: <a href="https://kfmatovic716.github.io/Web_Design-HTML-CSS/">https://kfmatovic716.github.io/Web_Design-HTML-CSS</a>
+Website: <a href="https://kfmatovic716.github.io/Web_Design-HTML-CSS/">https://kfmatovic716.github.io/Web_Design-HTML-CSS/index.html</a>
 
 ### Tools & Languages: 
 <ul>
